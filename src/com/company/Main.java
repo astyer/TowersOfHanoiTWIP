@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Please input number of disks to solve for:");
         int disks = input.nextInt();
 
-        TowersOfHanoi.solve(disks, 0, 2, 1);
+        TowersOfHanoi.solve(disks, 1, 3, 2);
 
     }
 }

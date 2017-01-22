@@ -2,16 +2,13 @@ package com.company;
 
 public class TowersOfHanoi {
 
-    public TowersOfHanoi()
-    {
-
-    }
+    public static int sNum = 1;
 
     public static void solve(int d, int startPeg, int endPeg, int middlePeg)
     {
         if(d == 1)
         {
-            System.out.println("1: Move one disk from tower " + (startPeg + 1) + " to " + (endPeg + 1));
+            System.out.println(sNum++ + ": Move one disk from tower " + startPeg + " to " + endPeg);
         }
 
         else
